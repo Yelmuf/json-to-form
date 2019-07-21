@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@sentry/browser": "^5.5.0",
     "bulma": "^0.7.5",
     "emotion": "^10.0.14",
     "final-form": "^4.18.2",
