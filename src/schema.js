@@ -19,7 +19,6 @@ const field = Joi.object({
     )
     .required(),
   label: Joi.string(),
-  required: Joi.boolean(),
   placeholder: Joi.string().description(
     'Can be used when type of Field is number, date, text or textarea'
   ),
@@ -63,13 +62,11 @@ export const defaultState = JSON.stringify({
   fields: [
     {
       label: 'Numberic form field',
-      type: 'number',
-      required: true
+      type: 'number'
     },
     {
       label: 'Text form field',
-      type: 'text',
-      required: true
+      type: 'text'
     },
     {
       label: 'Textarea text field filled with text',
@@ -78,13 +75,11 @@ export const defaultState = JSON.stringify({
     {
       label: 'Textarea text field filled with text',
       type: 'textarea',
-      placeholder: 'duplicate of previous one',
-      required: true
+      placeholder: 'duplicate of previous one does not break anything',
     },
     {
       label: 'Date of birth',
-      type: 'date',
-      required: true
+      type: 'date'
     },
     {
       label: 'Date of death',
@@ -95,7 +90,7 @@ export const defaultState = JSON.stringify({
       type: 'checkbox'
     },
     {
-      label: 'Radio fields',
+      label: 'Radio fields (how\'d you spell "cat"?)',
       type: 'radio',
       choices: [
         {
@@ -107,8 +102,8 @@ export const defaultState = JSON.stringify({
           value: 'kit'
         },
         {
-          label: 'Koshka',
-          value: 'koshka'
+          label: 'Cat',
+          value: 'cat'
         },
         {
           label: 'Koshak',
