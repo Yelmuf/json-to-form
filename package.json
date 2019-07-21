@@ -1,0 +1,53 @@
+{
+  "name": "json-to-form",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.0.0",
+    "@testing-library/react": "^8.0.5",
+    "bulma": "^0.7.5",
+    "emotion": "^10.0.14",
+    "final-form": "^4.18.2",
+    "final-form-arrays": "^3.0.1",
+    "joi": "^14.3.1",
+    "joi-to-swagger": "^3.2.0",
+    "moment": "^2.24.0",
+    "prettier": "^1.18.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-final-form": "^6.3.0",
+    "react-final-form-arrays": "^3.1.0",
+    "wonky-scripts": "^0.0.5"
+  },
+  "scripts": {
+    "start": "set HTTPS=true&&react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write \"src/**/*.{js,jsx}\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@blueprintjs/core": "^3.17.1",
+    "@blueprintjs/datetime": "^3.11.0",
+    "@blueprintjs/icons": "^3.9.1",
+    "@types/joi": "^14.3.3",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4"
+  }
+}
