@@ -3,8 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.0.0",
-    "@testing-library/react": "^8.0.5",
     "bulma": "^0.7.5",
     "emotion": "^10.0.14",
     "final-form": "^4.18.2",
@@ -18,7 +16,7 @@
     "react-dom": "^16.8.6",
     "react-final-form": "^6.3.0",
     "react-final-form-arrays": "^3.1.0",
-    "wonky-scripts": "^0.0.5"
+    "react-scripts": "^3.0.1"
   },
   "scripts": {
     "start": "set HTTPS=true&&react-scripts start",
@@ -46,6 +44,8 @@
     "@blueprintjs/core": "^3.17.1",
     "@blueprintjs/datetime": "^3.11.0",
     "@blueprintjs/icons": "^3.9.1",
+    "@testing-library/jest-dom": "^4.0.0",
+    "@testing-library/react": "^8.0.5",
     "@types/joi": "^14.3.3",
     "@types/react": "^16.8.23",
     "@types/react-dom": "^16.8.4"
