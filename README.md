@@ -1,4 +1,4 @@
-# Json-to-form [![Build Status](https://travis-ci.org/Yelmuf/mastermind-solver.svg?branch=master)](https://travis-ci.org/Yelmuf/mastermind-solver)
+# Json-to-form [![Build Status](https://travis-ci.org/Yelmuf/json-to-form.svg?branch=release)](https://travis-ci.org/Yelmuf/json-to-form)
 
 Render your form from text
 
