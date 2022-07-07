@@ -10,7 +10,7 @@
     "final-form-arrays": "^3.0.1",
     "joi": "^14.3.1",
     "joi-to-swagger": "^3.2.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "prettier": "^1.18.2",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
